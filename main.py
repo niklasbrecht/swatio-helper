@@ -19,8 +19,7 @@ def detectDelWarning():
     screen = getScreen()
     result = cv2.matchTemplate(screen, delWarning, cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
-    threshold = 0.90
-    time.sleep(0.1)
+    threshold = .90
     if(max_val >= threshold):
         x = max_loc[0] * 0.5 + 50
         y = max_loc[1] * 0.5 + 30
@@ -39,5 +38,5 @@ while True:
         x = max_loc[0] * 0.5 + 15
         y = max_loc[1] * 0.5 + 10
         pyautogui.leftClick(x,y)
-        time.sleep(0.2)
+        time.sleep(.1)
         detectDelWarning()
