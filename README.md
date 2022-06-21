@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Swatio Helper" />
+  <img src="./.github/app.gif" alt="Swat-io-Helper" />
 
   &#xa0;
 </div>
