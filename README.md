@@ -8,11 +8,22 @@
 
 
 
-<p align="center">
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  Swat.io-Helper has a simple structure. It can automatically remove error messages and skip the deletion confirmation to optimize the workflow. To realize these features, the script uses OpenCV and detects the searched prompts on the screen.
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  I recommend Python3. Check the requirements.txt to install all needed dependencies.
-</p>
+### Features ###
+Swat.io-Helper has a simple structure. It can automatically remove error messages and skip the deletion confirmation to optimize the workflow. To realize these features, the script uses OpenCV and detects the searched prompts on the screen.
+  
+### Requirements ###
+I recommend Python3. Check the requirements.txt to install all needed dependencies.
+
+### How to install ###
+
+1. `git clone https://github.com/niklasbrecht/swatio-helper.git`
+
+2. `cd swatio-helper`
+
+3. `pip install -r requirements.txt`
+
+4. `python3 main.py`
+
+
 
 
