@@ -1,10 +1,6 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Swat-io-Helper" />
 
-  &#xa0;
-</div>
 
-<h1 align="center">Swatio Helper</h1>
+## Swat-io-Helper ##
 
 
 
