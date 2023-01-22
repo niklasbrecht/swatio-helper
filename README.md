@@ -8,7 +8,7 @@
 Swat.io-Helper has a simple structure. It can automatically remove error messages and skip the deletion confirmation to optimize the workflow. To realize these features, the script uses OpenCV and detects the searched prompts on the screen.
   
 ### Requirements ###
-I recommend Python3. Check the requirements.txt to install all needed dependencies.
+Python3+ is recommended. Check the requirements.txt to install all needed dependencies.
 
 ### How to install ###
 
